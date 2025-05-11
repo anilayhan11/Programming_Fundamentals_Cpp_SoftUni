@@ -24,7 +24,9 @@ int main()
     int N;
     cin >> N;
 
-    string arr[N];
+    const int maxValue = 100;
+
+    string arr[maxValue];
     for (int cnt = 0; cnt < N; cnt++)
         cin >> arr[cnt];
 
